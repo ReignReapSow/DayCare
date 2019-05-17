@@ -1,0 +1,50 @@
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+
+//##HOME###
+#home{
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background: url("../imgs/background/background.png") no-repeat center center;
+  margin: 0;
+}
+
+#homeTitle{
+  border: 1px dashed $primary;
+  width: 100vw;
+  height: 20%;
+  text-align: center;
+  
+  margin: 20% auto 2%;
+  font-size: 400%;
+  
+}
+
+//HEADER
+header{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 50px;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
+}
+#headerTitle{
+  font-size: 150%;
+  color: #fff;
+  margin: .5% 5%;
+}
+
+
+
+h1{
+  
+  font-family: cuckoo, serif;
+  font-size: 80%;
+}
+.titleSpan{
+  font-size: 50%;
+  margin-top: -10px;
+}

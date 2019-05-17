@@ -1,0 +1,26 @@
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+
+
+//footer
+
+footer{
+	background-color: #000;
+	width: 100vw;
+	height: 30%;
+
+	p{
+		text-align: center;
+		color: #fff;
+		a{
+			text-decoration: none;
+			color: #0ff;
+
+			&:hover{
+				color: $highlight;
+			}
+		}
+	}
+}
+
