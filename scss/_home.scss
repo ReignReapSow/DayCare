@@ -6,45 +6,51 @@
 #home{
   width: 100vw;
   height: 100vh;
+  background: url("../imgs/background/background.png") no-repeat center;
   background-size: cover;
-  background: url("../imgs/background/background.png") no-repeat center center;
+  min-width: 100%;
   margin: 0;
+
+
+
+
 }
 
+//hero title
 #homeTitle{
   border: 1px dashed $primary;
   width: 100vw;
-  height: 20%;
+  height: 40%;
   text-align: center;
-  
   margin: 20% auto 2%;
   font-size: 400%;
-  
+
+  h1{
+    height: auto;
+    margin: 0 auto;
+    color: green;
+    font-family: cuckoo, serif;
+    font-size: 80%;
+    border: 1px dashed ;
+    text-shadow: -2.5px 2px #000;
+  }
+
+  span{
+    font-size: 80%;
+    margin-top: -10px;
+    color: red;
+
+    //JOIN BTN
+    .btn-join{
+      color: green;
+      font-size: 2rem;
+      text-decoration: none;
+    }
+  }
 }
 
-//HEADER
-header{
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 50px;
-  background-size: cover;
-  background: rgba(0, 0, 0, 0.5);
-}
-#headerTitle{
-  font-size: 150%;
-  color: #fff;
-  margin: .5% 5%;
-}
 
 
 
-h1{
-  
-  font-family: cuckoo, serif;
-  font-size: 80%;
-}
-.titleSpan{
-  font-size: 50%;
-  margin-top: -10px;
-}
+
+

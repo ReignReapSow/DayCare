@@ -2,12 +2,7 @@
  * Copyright (c) 2017. Reign Designs, Inc.
  */
 
-//CONSTRUCTION LINES
-*{
-    div{
-        border: 1px dashed blue;
-    }
-}
+
 
 //Variables
 
@@ -24,13 +19,10 @@ $secondary: blue;
 $tertiary: orange;
 $Tertiary2nd: #0ff;
 
-//BUTTONS
-.btn-join{
-  background-color: $primary;
-}
+
 
 section{
   height: 100vh;
-  width: 100%;
+  width: 99.5%;
 
 }

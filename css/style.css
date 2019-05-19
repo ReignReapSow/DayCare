@@ -1,8 +1,3 @@
-/*
-  Project Name: DayCare - Creative Learning and Development Center - Home
-  Date Created: Oct 23, 2017
-  Author: Reign @ Reign Designs, Inc.
-*/
 /*!
  * Copyright (c) 2017. Reign Designs, Inc.
  */
@@ -11,29 +6,17 @@ body,
 ul,
 ol {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*!
  * Copyright (c) 2017. Reign Designs, Inc.
  */
-* div {
-  border: 1px dashed blue;
-}
-
 @font-face {
   font-family: cuckoo;
-  src: "../font/cuckoo.ttf";
-}
-
-.btn-join {
-  background-color: red;
-}
-
+  src: "../font/cuckoo.ttf"; }
 section {
   height: 100vh;
-  width: 100%;
-}
+  width: 99.5%; }
 
 /*!
  * Copyright (c) 2017. Reign Designs, Inc.
@@ -41,19 +24,34 @@ section {
 #home {
   width: 100vw;
   height: 100vh;
+  background: url("../imgs/background/background.png") no-repeat center;
   background-size: cover;
-  background: url("../imgs/background/background.png") no-repeat center center;
-  margin: 0;
-}
+  min-width: 100%;
+  margin: 0; }
 
 #homeTitle {
   border: 1px dashed red;
   width: 100vw;
-  height: 20%;
+  height: 40%;
   text-align: center;
   margin: 20% auto 2%;
-  font-size: 400%;
-}
+  font-size: 400%; }
+  #homeTitle h1 {
+    height: auto;
+    margin: 0 auto;
+    color: green;
+    font-family: cuckoo, serif;
+    font-size: 80%;
+    border: 1px dashed;
+    text-shadow: -2.5px 2px #000; }
+  #homeTitle span {
+    font-size: 80%;
+    margin-top: -10px;
+    color: red; }
+    #homeTitle span .btn-join {
+      color: green;
+      font-size: 2rem;
+      text-decoration: none; }
 
 header {
   margin: 0;
@@ -61,80 +59,42 @@ header {
   width: 100vw;
   height: 50px;
   background-size: cover;
-  background: rgba(0, 0, 0, 0.5);
-}
+  background: rgba(0, 0, 0, 0.5); }
+  header #headerTitle {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 5%;
+    width: 40%;
+    height: 99%;
+    text-align: center; }
 
-#headerTitle {
-  font-size: 150%;
-  color: #fff;
-  margin: .5% 5%;
-}
-
-h1 {
-  font-family: cuckoo, serif;
-  font-size: 80%;
-}
-
-.titleSpan {
-  font-size: 50%;
-  margin-top: -10px;
-}
-
-/*!
- * Copyright (c) 2017. Reign Designs, Inc.
- */
-nav {
+header nav {
   float: right;
   width: 35%;
-  height: 100%;
-}
+  height: 100%; }
+  header nav ul {
+    width: 100%;
+    height: 100%; }
+    header nav ul li {
+      display: inline-block;
+      list-style: none;
+      text-align: center;
+      margin: 2% 5%;
+      text-transform: capitalize; }
+      header nav ul li .current {
+        border-bottom: 2px solid #fff; }
 
-nav ul {
-  width: 100%;
-  height: 100%;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  text-align: center;
-  margin: 2% 5%;
-  text-transform: capitalize;
-}
-
-a {
+nav ul a {
   color: #fff;
-}
-
-.navButtons {
   text-decoration: none;
-  font-size: 150%;
-}
+  font-size: 2rem;
+  margin: 50% 0;
+  text-align: center; }
 
-.navButtons:hover {
-  color: lightgreen;
-}
-
-/*!
- * Copyright (c) 2017. Reign Designs, Inc.
- */
-footer {
-  background-color: #000;
-  width: 100vw;
-  height: 30%;
-}
-
-footer p {
-  text-align: center;
-  color: #fff;
-}
-
-footer p a {
+nav > .navButtons {
   text-decoration: none;
-  color: #0ff;
-}
+  font-size: 150%; }
+  nav > .navButtons:hover {
+    color: lightgreen; }
 
-footer p a:hover {
-  color: lightgreen;
-}
 /*# sourceMappingURL=style.css.map */

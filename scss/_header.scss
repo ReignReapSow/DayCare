@@ -1,0 +1,65 @@
+
+//HEADER
+header{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 50px;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
+
+  #headerTitle{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 5%;
+    width: 40%;
+    height: 99%;
+    text-align: center;
+  }
+}
+
+
+
+//NAV
+header nav{
+  float: right;
+  width: 35%;
+  height: 100%;
+
+  ul{
+    width: 100%;
+    height: 100%;
+
+
+    li{
+      display: inline-block;
+      list-style: none;
+      text-align: center;
+      margin: 2% 5%;
+      text-transform: capitalize;
+
+      .current{
+        border-bottom: 2px solid #fff;
+      }
+    }
+  }
+}
+
+//Nav Buttons
+nav ul a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 50% 0;
+  text-align: center;
+
+
+}
+nav > .navButtons{
+  text-decoration: none;
+  font-size: 150%;
+
+  &:hover{
+    color: $highlight;
+  }
+}
