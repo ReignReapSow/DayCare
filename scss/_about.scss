@@ -1,0 +1,18 @@
+//about
+
+about{
+  width: 100vw;
+  height: 100vh;
+
+  .about-header {
+    width: 100%;
+    height: 50vh;
+    background: url('../imgs/kids-on-pg-hero-8.2015.jpg') no-repeat center center;
+    background-size: cover;
+    border: 1px dashed red;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}

@@ -11,90 +11,173 @@ ol {
 /*!
  * Copyright (c) 2017. Reign Designs, Inc.
  */
-@font-face {
-  font-family: cuckoo;
-  src: "../font/cuckoo.ttf"; }
-section {
+#home {
+  width: 99.7vw;
   height: 100vh;
-  width: 99.5%; }
+  background: url("../imgs/background/background.png") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#homeTitle {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  margin: 60% 0 0 0;
+  flex-direction: column; }
+  #homeTitle h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: lightgreen;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.5); }
+@font-face {
+  #homeTitle h1 {
+    font-family: Cuckoo;
+    src: "font/cuckoo.ttf"; } }
+    #homeTitle h1 span {
+      color: red; }
+  #homeTitle .btn-join {
+    height: 20vh;
+    width: 50%;
+    margin: 0 25%;
+    background-color: green;
+    border-radius: 10px 10px;
+    box-shadow: -2px 2px rgba(0, 0, 0, 0.3); }
+    #homeTitle .btn-join a {
+      color: white;
+      font-size: 2rem; }
+    #homeTitle .btn-join:hover {
+      background-color: lightgreen; }
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px dashed red;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-around;
+  justify-content: flex-start;
+  margin: 0; }
+  header #title {
+    border: 1px dashed blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    header #title .headerLogo {
+      width: 50px;
+      height: 100%; }
+    header #title p {
+      font-size: 1.6rem;
+      color: #fff; }
+@font-face {
+  header #title p {
+    font-family: Cuckoo;
+    src: "font/cuckoo.ttf"; } }
+  header .mobile-nav {
+    border: 1px dashed yellow;
+    height: 100%;
+    width: 30%; }
+    header .mobile-nav label {
+      height: 10vh;
+      width: auto;
+      border: 1px dashed blue; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px dashed black; }
+  .menu li {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 5vh;
+    font-size: 2rem;
+    background-color: grey;
+    color: white; }
+    .menu li .current {
+      background: blue;
+      color: lightgreen; }
+    .menu li a {
+      text-decoration: none;
+      color: #fff; }
+
+#features {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.features-titlebox {
+  width: 100vw;
+  height: 50vh;
+  background: url("../imgs/background/picture7.jpg") no-repeat center center, rgba(0, 0, 0, 0.8);
+  background-size: cover; }
+  .features-titlebox h2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 3rem;
+    color: lightgreen;
+    text-shadow: 2px 1px #000;
+    margin: 45% 0; }
+
+.feature-container {
+  display: flex;
+  flex-direction: column; }
+  .feature-container .feature-box {
+    width: 90%;
+    height: 50vh;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    box-shadow: -2px 3px #000;
+    margin: 2% auto;
+    justify-content: space-around; }
+    .feature-container .feature-box img {
+      width: 100%;
+      height: 50%;
+      border-radiust: 10px 10px; }
+    .feature-container .feature-box h3 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%; }
+    .feature-container .feature-box hr {
+      width: 40vw; }
+    .feature-container .feature-box p {
+      margin: 5%; }
+
+about {
+  width: 100vw;
+  height: 100vh; }
+  about .about-header {
+    width: 100%;
+    height: 50vh;
+    background: url("../imgs/kids-on-pg-hero-8.2015.jpg") no-repeat center center;
+    background-size: cover;
+    border: 1px dashed red; }
+  about h3 {
+    text-align: center; }
 
 /*!
  * Copyright (c) 2017. Reign Designs, Inc.
  */
-#home {
+footer {
+  background-color: #000;
   width: 100vw;
-  height: 100vh;
-  background: url("../imgs/background/background.png") no-repeat center;
-  background-size: cover;
-  min-width: 100%;
-  margin: 0; }
-
-#homeTitle {
-  border: 1px dashed red;
-  width: 100vw;
-  height: 40%;
-  text-align: center;
-  margin: 20% auto 2%;
-  font-size: 400%; }
-  #homeTitle h1 {
-    height: auto;
-    margin: 0 auto;
-    color: green;
-    font-family: cuckoo, serif;
-    font-size: 80%;
-    border: 1px dashed;
-    text-shadow: -2.5px 2px #000; }
-  #homeTitle span {
-    font-size: 80%;
-    margin-top: -10px;
-    color: red; }
-    #homeTitle span .btn-join {
-      color: green;
-      font-size: 2rem;
-      text-decoration: none; }
-
-header {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 50px;
-  background-size: cover;
-  background: rgba(0, 0, 0, 0.5); }
-  header #headerTitle {
-    font-size: 2rem;
-    color: #fff;
-    margin: 0 5%;
-    width: 40%;
-    height: 99%;
-    text-align: center; }
-
-header nav {
-  float: right;
-  width: 35%;
-  height: 100%; }
-  header nav ul {
-    width: 100%;
-    height: 100%; }
-    header nav ul li {
-      display: inline-block;
-      list-style: none;
-      text-align: center;
-      margin: 2% 5%;
-      text-transform: capitalize; }
-      header nav ul li .current {
-        border-bottom: 2px solid #fff; }
-
-nav ul a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 2rem;
-  margin: 50% 0;
-  text-align: center; }
-
-nav > .navButtons {
-  text-decoration: none;
-  font-size: 150%; }
-  nav > .navButtons:hover {
-    color: lightgreen; }
+  height: 30%; }
+  footer p {
+    text-align: center;
+    color: #fff; }
+    footer p a {
+      text-decoration: none;
+      color: #0ff; }
+      footer p a:hover {
+        color: lightgreen; }
 
 /*# sourceMappingURL=style.css.map */

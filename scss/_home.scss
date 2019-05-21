@@ -1,50 +1,51 @@
-/*!
- * Copyright (c) 2017. Reign Designs, Inc.
- */
-
-//##HOME###
-#home{
-  width: 100vw;
+//  HOME
+#home {
+  width: 99.7vw;
   height: 100vh;
-  background: url("../imgs/background/background.png") no-repeat center;
+  background: url("../imgs/background/background.png")center center;
+  background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100%;
-  margin: 0;
-
-
-
-
 }
 
-//hero title
-#homeTitle{
-  border: 1px dashed $primary;
-  width: 100vw;
-  height: 40%;
-  text-align: center;
-  margin: 20% auto 2%;
-  font-size: 400%;
 
-  h1{
-    height: auto;
-    margin: 0 auto;
-    color: green;
-    font-family: cuckoo, serif;
-    font-size: 80%;
-    border: 1px dashed ;
-    text-shadow: -2.5px 2px #000;
+#homeTitle {
+  width: 100%;
+  height: 20vh;
+
+  text-align: center;
+  display: flex;
+  margin: 60% 0 0 0;
+  flex-direction: column;
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    @include font-face;
+    color: lightgreen;
+    text-shadow: -2px 2px rgba(0,0,0,0.5);
+
+    span {
+      color: red;
+    }
   }
 
-  span{
-    font-size: 80%;
-    margin-top: -10px;
-    color: red;
+  .btn-join {
+    height: 20vh;
+    width: 50%;
+    margin: 0 25%;
+    background-color: green;
+    border-radius: 10px 10px;
+    box-shadow: -2px 2px rgba(0,0,0,0.3);
 
-    //JOIN BTN
-    .btn-join{
-      color: green;
+    a {
+      color: white;
       font-size: 2rem;
-      text-decoration: none;
+
+
+    }
+
+    &:hover{
+      background-color: lightgreen;
+
     }
   }
 }
@@ -53,4 +54,75 @@
 
 
 
-
+///*!
+// * Copyright (c) 2017. Reign Designs, Inc.
+// */
+//
+////##HOME###
+//#home{
+//  width: 100vw;
+//  height: 100vh;
+//  background: url("../imgs/background/background.png") no-repeat center;
+//  background-size: cover;
+//  min-width: 100%;
+//  margin: 0;
+//
+//
+//
+//
+//}
+//
+////hero title
+//#homeTitle{
+//
+//  width: 70vw;
+//  height: 25%;
+//  text-align: center;
+//  margin: 20% auto;
+//  margin-top: 28%;
+//  font-size: 400%;
+//
+//  h1{
+//    height: auto;
+//    margin: 0 auto;
+//    color: green;
+//    font-family: cuckoo, serif;
+//    font-size: 80%;
+//    text-shadow: -2.5px 2px #000;
+//  }
+//
+//  span{
+//    font-size: 80%;
+//    margin-top: -10px;
+//    color: red;
+//
+//
+//  }
+//}
+//
+//
+//
+////JOIN BTN
+//.btn-join{
+//  background: blue;
+//  border-radius: 25px 25px;
+//  box-shadow: -2px 2px rgba(0,0,0,0.5);
+//  height: 25%;
+//  width: 30%;
+//  margin: 1% auto;
+//  color: green;
+//  font-size: 3rem;
+//
+//  &:hover{
+//    background: green;
+//    color: blue;
+//
+//  }
+//
+//  a {
+//    text-decoration: none;
+//
+//  }
+//}
+//
+//

@@ -7,10 +7,15 @@
 //Variables
 
 //Custom FONT
-@font-face{
-  font-family: cuckoo;
-  src: ('../font/cuckoo.ttf');
+@mixin font-face {
+
+  @font-face {
+    font-family: Cuckoo;
+    src: ('font/cuckoo.ttf');
+  }
 }
+
+//TODO CONVERT COLORS TO PSD COLORS IN RGBA
 
 //PRIMARY COLORS
 $highlight: lightgreen;
@@ -21,8 +26,3 @@ $Tertiary2nd: #0ff;
 
 
 
-section{
-  height: 100vh;
-  width: 99.5%;
-
-}

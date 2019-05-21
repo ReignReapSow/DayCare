@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Creative Learning and Development Christian Center</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <link rel="stylesheet" href="css/style.css">
 
         <!-- 
@@ -9,60 +11,102 @@
             ++ UNDER CONSTRUCTION   ++
             ++++++++++++++++++++++++++
   TODO
-  Add 3 Primary Colors
-  Build FEATURES section
-  Build ABOUT section
-  Build CONTACT section
-  Build FOOTER section
-  Build PAY SYSTEM section
-  Build CLIENT LOGIN section
+    RE-WRITE CSS
+    CONVERT TO MOBILE-FIRST DEVELOPMENT
+        ***USE FLEXBOX***
+    Add 3 Primary Colors
+    Build FEATURES section --DONE
+    Build ABOUT section
+    Build CONTACT section
+    Build FOOTER section
+    Build PAY SYSTEM section
+    Build CLIENT LOGIN section
+    BUILD A NEXT-LAYER BULLETIN BOARD WITH LIVE FEED CHANGE EVERY 5 secs
 
 
 
         -->
     </head>
     <body>
-        <section id="home">
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="#" class="navButtons current">Home</a></li>
-                        <li><a href="#" class="navButtons">Feature</a></li>
-                        <li><a href="#" class="navButtons">About</a></li>
-                        <li><a href="#" class="navButtons ">Contact</a></li>
-                    </ul>
-                </nav>
 
-                <div id="headerTitle"><img class="headerLogo" src="#">
-                    <!-- TODO: Add LOGO -->Creative Learning and Development Christian Center
 
-                </div>
+<!--        HOME-->
+    <section id="home">
+        <header>
 
-            </header>
+            <div id="title">
+                <img class="headerLogo" src="imgs/icons/icons8-day-care-50.png">
+                <p>Creative Learning and Development Christian Center</p>
+            </div>
+
+        </header>
+
+        <!--   MOBILE NAV-->
+        <nav class="mobile-nav">
+            <ul class="menu">
+                <li  class="current"><a href="index.html">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
 
             <div id="homeTitle">
                 <h1>Creative Learning and Development Christian Center
-                    <br><span>where your children are ours</span></h1>
-                <a class="btn-join">Enroll Now!</a>
+                    <br><span>where your children are ours</span></h1><br>
+                <div class="btn-join">
+                    <a>Enroll Now!</a>
+                </div>
             </div>
 
         </section>
-        <section id="#features">
-            <div class=""></div>
-            <div>
-                <div class="feature-box"></div>
-                <div class="feature-box"></div>
-                <div class="feature-box"></div>
+
+<!--        FEATURES-->
+        <section id="features">
+            <div class="features-titlebox">
+                <h2>Features</h2>
             </div>
+            <div class="feature-container">
+                <div class="feature-box box1">
+                    <img src="imgs/images.jpg" alt="#">
+                    <h3>After School Transportation</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda consequuntur ducimus, nihil quae quaerat tempore ullam. Atque natus non optio quaerat recusandae! Ad aspernatur expedita itaque magnam molestias voluptatem!</p>
+                </div>
+                <div class="feature-box box2">
+                    <img src="imgs/general_educatorspage_takealongdayoff.jpg"
+                         alt="Summer Kids Program">
+                    <h3>Summer Program</h3>
+                    <hr class="hr-title">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur ea eaque fugit in, ipsum maxime nesciunt nostrum reiciendis soluta!</p>
+                </div>
+                <div class="feature-box box3">
+                    <img src="imgs/girl-kids-training-school-159782.jpeg" alt="#">
+                    <h3>After School Program</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur cumque doloribus eaque enim eum fugit harum labore minus sint?</p>
+                </div>
+            </div>
+
         </section>
+
+<!--        ABOUT-->
         <section id="about">
+            <div class="about-header">
+                <h3>About</h3>
+            </div>
 
         </section>
+
+<!--        CONTACT-->
         <section id="contact">
 
         </section>
+
+<!--        FOOTER-->
         <footer>
-            <p>2017&copy; &mdash;<a href="http://www.reigndesignsinc.com">Reign Westy</a></p>
+            <p>2017&copy; &mdash;<a href="http://www.reignwestry.com">Reign Westy</a></p>
         </footer>
     </body>
 </html>
