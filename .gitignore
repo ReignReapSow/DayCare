@@ -5,3 +5,4 @@
 # ignored dir
 .data
 .idea
+package.json
