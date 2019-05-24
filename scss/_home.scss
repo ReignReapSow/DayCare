@@ -14,14 +14,14 @@
 
   text-align: center;
   display: flex;
-  margin: 60% 0 0 0;
+  margin: 28% 0 0 0;
   flex-direction: column;
   h1 {
     text-align: center;
     font-size: 1.8rem;
-    @include font-face;
-    color: lightgreen;
+    color: $highlight;
     text-shadow: -2px 2px rgba(0,0,0,0.5);
+    @include specialFont;
 
     span {
       color: red;
@@ -35,6 +35,7 @@
     background-color: green;
     border-radius: 10px 10px;
     box-shadow: -2px 2px rgba(0,0,0,0.3);
+    @include specialFont;
 
     a {
       color: white;
@@ -44,7 +45,7 @@
     }
 
     &:hover{
-      background-color: lightgreen;
+      background-color: $highlight;
 
     }
   }
@@ -53,76 +54,3 @@
 
 
 
-
-///*!
-// * Copyright (c) 2017. Reign Designs, Inc.
-// */
-//
-////##HOME###
-//#home{
-//  width: 100vw;
-//  height: 100vh;
-//  background: url("../imgs/background/background.png") no-repeat center;
-//  background-size: cover;
-//  min-width: 100%;
-//  margin: 0;
-//
-//
-//
-//
-//}
-//
-////hero title
-//#homeTitle{
-//
-//  width: 70vw;
-//  height: 25%;
-//  text-align: center;
-//  margin: 20% auto;
-//  margin-top: 28%;
-//  font-size: 400%;
-//
-//  h1{
-//    height: auto;
-//    margin: 0 auto;
-//    color: green;
-//    font-family: cuckoo, serif;
-//    font-size: 80%;
-//    text-shadow: -2.5px 2px #000;
-//  }
-//
-//  span{
-//    font-size: 80%;
-//    margin-top: -10px;
-//    color: red;
-//
-//
-//  }
-//}
-//
-//
-//
-////JOIN BTN
-//.btn-join{
-//  background: blue;
-//  border-radius: 25px 25px;
-//  box-shadow: -2px 2px rgba(0,0,0,0.5);
-//  height: 25%;
-//  width: 30%;
-//  margin: 1% auto;
-//  color: green;
-//  font-size: 3rem;
-//
-//  &:hover{
-//    background: green;
-//    color: blue;
-//
-//  }
-//
-//  a {
-//    text-decoration: none;
-//
-//  }
-//}
-//
-//
